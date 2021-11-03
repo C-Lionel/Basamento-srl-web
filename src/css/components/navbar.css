@@ -1,0 +1,142 @@
+#style-a {
+      text-decoration: none;
+      font-weight: bold;
+      letter-spacing: 3px;
+      transition: all 200ms;
+      margin-right: 80px;
+      font-size: 17px;
+      font-family: 'Qualy';
+}
+
+#style-a:hover {
+      color: #336e88;
+      transform: scale(1.2, 1.2);
+      text-shadow: 0px 0px #74C2E3;
+}
+
+.a-nosotros,
+.a-proyectos,
+.a-servicios{
+      font-size: 15px;
+      color: var(--color-secondary-dark);
+}
+
+.a-inicio,
+.a-contacto {
+      font-size: 19px;
+      color: var(--color-secondary-dark);
+}
+
+/* .style-li:hover {
+      box-shadow: var(--shadow-btn-clicked);
+      border-radius: 9px;
+      background-color: var(--color-primary-dark);
+      transition: all 1.2s ease;
+} */
+
+/* .style-li:hover {
+      background-color:var(--color-primary-dark);
+      transition: all 1.2s ease;
+} */
+
+/* .style-li {
+      color:var(--color-primary-dark);
+      
+} */
+
+
+.tab-text {
+      margin-left: 13px;
+}
+
+/* .style-ul {
+      display: flex;
+      align-content: center;
+} */
+
+/* NAVBAR COLLAPSE */
+
+@media (max-width:767px) {
+      .style-ul li a {
+            margin-left: 40%;
+      }
+      #style-a:hover {
+            transform: none;
+      }
+      .img-logo-basamento {
+            width: 180px;
+      }
+}
+
+@media (max-width:600px) {
+      .style-ul li a {
+            margin-left: 35%;
+      }
+      #style-a:hover {
+            transform: none;
+      }
+      .img-logo-basamento {
+            width: 180px;
+      }
+}
+
+@media (max-width:570px) {
+      .style-ul li a {
+            margin-left: 35%;
+      }
+      #style-a:hover {
+            transform: none;
+      }
+      .img-logo-basamento {
+            width: 180px;
+      }
+}
+
+@media (max-width:470px) {
+      .style-ul li a {
+            margin-left: 33%;
+      }
+      #style-a:hover {
+            transform: none;
+      }
+      .img-logo-basamento {
+            width: 180px;
+      }
+}
+
+@media (max-width:390px) {
+      .style-ul li a {
+            margin-left: 27%;
+      }
+      #style-a:hover {
+            transform: none;
+      }
+      .img-logo-basamento {
+            width: 150px;
+      }
+}
+
+
+@media (max-width:375px) {
+      .style-ul li a {
+            margin-left:30%;
+      }
+      #style-a:hover {
+            transform: none;
+      }
+      .img-logo-basamento {
+            width: 150px;
+      }
+}
+
+@media (max-width:320px) {
+      .style-ul li a {
+            margin-left:28%;
+      }
+      #style-a:hover {
+            transform: none;
+      }
+      .img-logo-basamento {
+            width: 150px;
+      }
+}

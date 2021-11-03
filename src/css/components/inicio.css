@@ -1,0 +1,88 @@
+ /* SLIDER */ 
+
+  .tooltip-carousel {
+    position: absolute;
+    z-index: 11;
+    border-radius: 50%;
+  }
+  
+  .caraousel-tooltip-item {
+    display: none;
+  }
+  
+  .caraousel-tooltip-item.active {
+    display: block;
+  }
+
+  .slider {
+    margin-top: 40px;
+  }
+
+  .style-slider {
+    height: auto;
+  }
+
+
+#banner {
+    overflow: hidden;
+    border-radius: 5px;
+    width: 70%;
+    height: 100px;
+    border: 8px solid white;
+    box-shadow: 0px 0px 2px gray;
+    /* background: linear-gradient(to right, #082430, #075e83 ); */
+    background: url('../../assets/imgs/Banner/banner-basamento.jpg'), no-repeat;
+    background-position: -400px -400px;
+    margin: 25px auto;
+    animation: backBanner 25s linear;
+}
+
+@keyframes backBanner {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: -400px -400px;
+  }
+}
+
+#banner h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    letter-spacing: 2px;
+    padding: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 1px #0a506e;
+    animation: showText 6s linear;
+    letter-spacing: 2px;
+    font-family: 'Qualy';
+}
+
+
+@keyframes showText {
+  0% {
+    transform: translateX(-600%) scale(5,5);
+    opacity: 1;
+  }
+  50%{
+    transform: translateX(600%) scale(5,5);
+    opacity: 1;
+  }
+  75%{
+    transform: translateX(-600%) scale(5,5);
+    text-shadow: none;
+    color: transparent;
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0%) scale(1,1);
+    text-shadow: 2px 2px 1px #0a506e;
+    color: white;
+    opacity: 1;
+  }
+}
+
+
+    
