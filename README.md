@@ -1,6 +1,6 @@
-# Webpack Starter
+# Basamento SRL
 
-Este es el proyecto inicial para crear aplicaciones utilizando webpack.
+Este es el proyecto en el cuál utilizamos html, css, JavasCript, Bootstrap, webpack, y algunas librerias externas.
 
 ### Notas:
 Recuerden reconstruir los módulos de Node
