@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+
+  <!-- Bootbox -->
+
+
+
+  <!-- Animate.css -->
+
+
+  <!-- <link rel="stylesheet" href="../node_modules/animate.css/animate.compat.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+  <!-- Fontawesome -->
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/icon-1.ico">
+
+
+
+
+  <title>Basamento SRL</title>
+
+
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+
+  <nav class="navbar navbar-expand-md fixed-top container-fluid navbar-light"
+  style="background-color: var(--color-primary-ligth);">
+  <div class="container-fluid">
+    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+
+    <a style="margin-left: 20px;" href="./index.html">
+      <img class="img-logo-basamento" src="./logo/logo-basamento.svg" width="200">
+    </a>
+
+
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+      <ul class="navbar-nav nav-collapse p-2 m-auto style-ul">
+
+        <li class="nav-item">
+          <a id="style-a" class="nav-link" aria-current="page" href="./index.html"> <span
+            class="fa fa-home a-inicio"></span> <span class="tab-text"></span>INICIO</a>
+        </li>
+
+        <li class="nav-item">
+          <a  id="style-a" class="nav-link" aria-current="page" href="./nosotros.html"> <span
+            class="fa fa-users a-nosotros"></span> <span class="tab-text"></span>NOSOTROS</a>
+        </li>
+
+        <li class="nav-item">
+          <a id="style-a" class="nav-link" aria-current="page" href="./proyectos.html"> <span
+            class="fa fa-bookmark a-proyectos"></span> <span class="tab-text"></span>PROYECTOS</a>
+        </li>
+
+        <li class="nav-item">
+          <a id="style-a" class="nav-link" aria-current="page" href="./servicios.html"> <span
+            class="fa fa-briefcase a-servicios"></span> <span class="tab-text"></span>SERVICIOS</a>
+        </li>
+
+        <li class="nav-item">
+          <a style="color: #00567a;" id="style-a" class="nav-link" aria-current="page" href="./contacto.html"> <span
+             class="fa fa-phone a-contacto"></span> <span class="tab-text"></span>CONTACTO</a>
+        </li>
+      </ul>
+
+
+    </div>
+  </div>
+</nav>
+
+
+    <!-- CONTACTO -->
+
+    <article style="margin-top: 100px;" class="contacto styles-contacto text-center" id="tab5">
+
+      <div class="container">
+
+        <div class="row justify-content-center">
+          <div class="col-md-7">
+            <h1 class="display-4 color-titles animated zoomIn"> Formulario de contacto</h1>
+            <hr class="bg-hr">
+            <p class="text-contact pb-0 mb-0">Te invitamos a contactarnos, te responderemos a la brevedad ...</p>
+            <p class="text-contact-red style-contact small pt-0 mt-0">* Todos los campos son obligatorios</p>
+
+            <form class="formulario" id="form" name="contact" method="POST" action="">
+              <div class="row form-group mt-5">
+                <label for="nombre" class="col-form-label col-md-4">Nombre:</label>
+                <div class="col-md-8">
+                  <input placeholder="Escriba su nombre" type="text" name="nombre" value="" id="nombre"
+                    class="form-control" required>
+                </div>
+              </div>
+
+              <div class="row form-group mt-5">
+                <label for="nombre" class="col-form-label col-md-4">Apellidos:</label>
+                <div class="col-md-8">
+                  <input placeholder="Escriba su apellido" type="text" name="apellido" value="" id="apellido"
+                    class="form-control" required>
+                </div>
+              </div>
+
+              <div class="row form-group">
+                <label for="email" class="col-form-label col-md-4">E-mail:</label>
+                <div class="col-md-8">
+                  <input placeholder="Escriba una dirección de E-mail" type="email" name="email" value="" id="email"
+                    class="form-control" required>
+                </div>
+              </div>
+
+
+              <div class="row form-group">
+                <label for="mensaje" class="col-form-label col-md-4">Asunto:</label>
+                <div class="col-md-8">
+                  <input placeholder="Describa el asunto del mensaje" type="text" name="asunto" value="" id="asunto"
+                    class="form-control" required>
+                </div>
+              </div>
+
+
+              <div class="row form-group">
+                <label for="mensaje" class="col-form-label col-md-4">Mensaje:</label>
+                <div class="col-md-8">
+                  <textarea placeholder="Escriba un mensaje" name="3" class="form-control" id="mensaje" name="mensaje"
+                    required></textarea>
+                </div>
+              </div>
+
+
+
+              <button id="enviar" style="font-size: 16px;" type="submit" class="mt-4 p-2 btn style-btn-enviar">Enviar
+                formulario</button>
+
+            </form>
+
+          </div>
+        </div>
+
+      </div>
+
+    </article>
+
+
+
+  <!-- SCRIPTS -->
+
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+  <!-- Este -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/brands.js"
+    integrity="sha384-sCI3dTBIJuqT6AwL++zH7qL8ZdKaHpxU43dDt9SyOzimtQ9eyRhkG3B7KMl6AO19"
+    crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js"
+    integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c"
+    crossorigin="anonymous"></script>
+
+
+
+
+
+
+</body>
+
+</html>

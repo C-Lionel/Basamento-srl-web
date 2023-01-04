@@ -1,0 +1,102 @@
+.bg-color {
+    background-color: rgba(199, 218, 240, 0.863);
+}
+
+.style-acordeon button {
+    font-size: 15px;
+    background-color:var(--color-primary-ligth);
+    text-decoration: none;
+    color: var(--color-black);
+}
+
+.style-acordeon button:hover {
+    transition: all 0.8s ease;
+    text-decoration: none;
+    background-color: #c2e4f7;
+    
+}
+
+.style-img-proyectos {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.style-img-visible-tecnoseed,
+.style-img-visible-ferraris,
+.style-img-visible-orsa,
+.style-img-visible-cementerio,
+.style-img-visible-gasfe,
+.style-img-visible-polo,
+.style-img-visible-escuela,
+.style-img-visible-velez,
+.style-img-visible-jockey{
+    display: none;
+    margin-top: 50px;
+}
+
+.card-img {
+    margin-right: 30px;
+}
+.btn-style {
+    background-color: #7FA0B3;
+    border-radius: 4px;
+}
+.btn-style:hover {
+    background-color: #6798b4;
+    transition: 0.3s all ease;
+}
+
+.btn-cerrar-imagenes {
+    background-color: rgb(216, 108, 108);
+    border-radius: 4px;
+}
+
+.btn-cerrar-imagenes:hover {
+    background-color: rgb(223, 91, 91);
+    transition: 0.3s all ease;
+}
+
+.style-btn-proyectos {
+    margin-left: 2px;
+    margin-right: 2px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    width: auto;
+}
+
+.border-img {
+    border: 5px solid #215368;
+}
+
+.shadow-img {
+    box-shadow: 5px 5px 10px rgb(68, 68, 68);
+}
+
+.shadow-btn {
+    box-shadow: 5px 5px 10px #1d648d;
+}
+
+.style-titles-proyectos {
+    color: #503414;
+    font-weight: bold;
+}
+
+.i-projects-styles {
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: #00567a;
+    transition: all 500ms;
+    
+}
+
+.i-projects-styles:hover {
+    transform: scale(1.3); 
+    color: #00567a;
+}
+
+
+
+

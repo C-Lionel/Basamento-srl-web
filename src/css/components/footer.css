@@ -1,0 +1,325 @@
+.styles-icons {
+  font-size: 50px;
+  margin-right: 17px;
+  /* box-shadow: 10px 5px 5px rgb(68, 68, 68); */
+}
+
+.css3 {
+  color: #488fad;
+}
+
+.javascript {
+  color: rgb(226, 226, 0);
+}
+
+.node-js {
+  color: rgb(5, 112, 5);
+}
+
+.html5 {
+  color: rgb(207, 73, 24);
+  margin-left: 15px;
+}
+
+.bootstrap {
+  color: rgb(184, 6, 184);
+}
+
+#footer {
+  margin-top: 50px;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  height: 470px;
+  color: white;
+  overflow: hidden;
+}
+
+#footer .wrap>div {
+  float: left;
+  width: 19.9%;
+  height: 370px;
+  margin: 40px;
+  text-align: center;
+  color: white;
+}
+
+#menu_footer #inicio {
+  font-family: 'Qualy';
+  text-decoration: none;
+  color: var(--color-primary-dark);
+  text-shadow: 3px 3px 10px #113b4d;
+  transition: all 300ms;
+  font-size: 25px;
+}
+
+#footer a {
+  text-decoration: none;
+  transition: all 300ms;
+}
+
+#footer h5 {
+  display: block;
+  background: var( --color-secondary-ligth);
+  height: 50px;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 15px;
+  line-height: 55px;
+  color: black;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+footer ul {
+  text-align: left;
+  margin: 20px;
+  font-size: 25px;
+}
+
+#footer ul a {
+  margin-top: 10px;
+  padding: 5px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #ccc;
+}
+
+#footer ul a {
+  display: block;
+  height: 40px;
+  transition: all 300ms;
+}
+
+#footer ul a:hover {
+  padding-left: 40px;
+}
+
+#footer iframe {
+  width: 85%;
+  height: 85%;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 5px solid white;
+  box-shadow: 0px 0px 5px gray;
+}
+
+#footer img {
+  margin-bottom: 15px;
+}
+
+#footer #browsers img {
+  width: 50px;
+}
+
+/* .redes-sociales .overlay {
+    display: block;
+    height: px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-shadow: 0px 0px 1px #ccc;
+    border: 3px solid white;
+    box-shadow: 0px 0px 4px #ccc;
+    background: #F4F7FE;
+    position: absolute;
+    padding: 5px;
+} */
+
+.redes-sociales #whatsapp {
+  color: #053a0f;
+  text-shadow: 0px 0px 7px #128127;
+}
+
+.redes-sociales #instagram {
+  color: rgb(104, 14, 44);
+  text-shadow: 0px 0px 7px rgb(139, 31, 67);
+}
+
+.redes-sociales #facebook {
+  color: #1a4072;
+  text-shadow: 0px 0px 7px #1877F2;
+}
+
+.redes-sociales .overlay {
+  color: black;
+  display: block;
+  height: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-shadow: 0px 0px 1px #ccc;
+  border: 3px solid white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 4px #ccc;
+  background: #F4F7FE;
+  position: absolute;
+  margin-left: 200px;
+  margin-top: -50px;
+  padding: 5px;
+  transform: translateX(-150%);
+  opacity: 0;
+  transition: all 600ms;
+}
+
+.redes-sociales div:hover .overlay {
+  transform: translateX(0%);
+  opacity: 1;
+}
+
+#redes-sociales-id {
+  margin-left: -200px;
+  font-size: 38px;
+}
+
+/* .instagram {
+    font-size: 30px;
+    color: rgb(141, 20, 41);
+    text-shadow: 3px 3px 10px rgb(141, 20, 41);
+} */
+
+/* .whatsapp {
+    font-size: 30px;
+    color: rgb(25, 82, 10);
+    text-shadow: 3px 3px 10px rgb(25, 82, 10);
+} */
+
+/* .redes-sociales {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    font-size: 20px;
+  } */
+
+/* .redes-sociales a span:first-child {
+    display: inline-block;
+    padding: 15px;
+    
+  }
+
+  .redes-sociales a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 25px;
+    
+  }
+   
+  .redes-sociales a span:last-child { 
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-100%);
+    transition: all 500ms;
+  }
+
+  .redes-sociales a span {
+    transition: transform 0.2s ease-out;
+  }
+   
+  .redes-sociales a:hover span:first-child {
+    transform: translateY(100%);
+  }
+   
+  .redes-sociales a:hover span:last-child {
+    transform: none;
+  }
+
+  .redes-sociales[data-animation="to-top"] a span:last-child {
+    transform: translateY(100%);
+  }
+   
+  .redes-sociales[data-animation="to-top"] a:hover span:first-child {
+    transform: translateY(-100%);
+  }
+   
+  .redes-sociales[data-animation="to-right"] a span:last-child {
+    transform: translateX(-100%);
+  }
+   
+  .redes-sociales[data-animation="to-right"] a:hover span:first-child {
+    transform: translateX(100%);
+  }
+   
+  .redes-sociales[data-animation="to-left"] a span:last-child {
+    transform: translateX(100%);
+  }
+   
+  .redes-sociales[data-animation="to-left"] a:hover span:first-child {
+    transform: translateX(-100%);
+  } */
+
+.style-canvas {
+  background: linear-gradient(to top, #96662F, #FCEAB3);
+  overflow-y: scroll;
+  width: 30%;
+}
+
+.style-canvas-hml5 {
+  border-radius: 5px;
+  color: black;
+  padding: 7px;
+  letter-spacing: 2px;
+  font-size: 20px;
+  background-color: rgb(207, 73, 24);
+}
+
+.style-canvas-css3 {
+  border-radius: 5px;
+  padding: 7px;
+  letter-spacing: 2px;
+  font-size: 20px;
+  background-color: #488fad;
+  text-align: center;
+}
+
+.style-canvas-js {
+  border-radius: 5px;
+  color: black;
+  padding: 7px;
+  letter-spacing: 2px;
+  font-size: 20px;
+  background-color: rgb(226, 226, 0);
+}
+
+.style-canvas-nodejs {
+  border-radius: 5px;
+  padding: 7px;
+  letter-spacing: 2px;
+  font-size: 20px;
+  background-color: rgb(5, 112, 5);
+}
+
+.style-canvas-bootstrap {
+  border-radius: 5px;
+  color: black;
+  padding: 7px;
+  letter-spacing: 2px;
+  font-size: 20px;
+  background-color: rgb(184, 6, 184);
+}
+
+.style-btn-canvas {
+  transition: 300ms all;
+  font-size: 12px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 8px;
+  background-color: #5BA1A3;
+  border: 2px solid #25585a;
+}
+
+.style-autor {
+  font-weight: bold;
+  font-size: 16px;
+  color: rgb(49, 31, 7);
+}
