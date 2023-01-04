@@ -2,7 +2,7 @@
 
 $(document).ready(function () {
 
-    // TECNOSEED.
+    // TECNOSEED
 
     $('#ver-imagenes-tecnoseed').on('click', function () {
         $('#img-visible-tecnoseed').removeClass('style-img-visible-tecnoseed');
