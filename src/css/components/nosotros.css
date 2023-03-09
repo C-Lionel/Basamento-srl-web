@@ -6,3 +6,9 @@
 .carousel-control-next-styles {
     width: 30%;
 }
+
+span.carousel-control-prev-icon, span.carousel-control-next-icon {
+    /* background-color: rgb(97, 97, 97); */
+    padding: 20px;
+}
+
