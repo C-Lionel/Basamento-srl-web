@@ -30,7 +30,8 @@
 .style-img-visible-polo,
 .style-img-visible-escuela,
 .style-img-visible-velez,
-.style-img-visible-jockey{
+.style-img-visible-jockey,
+.style-img-visible-barzola{
     display: none;
     margin-top: 50px;
 }

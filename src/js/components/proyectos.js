@@ -94,6 +94,16 @@ $(document).ready(function () {
         $('#img-visible-jockey').addClass('style-img-visible-jockey');
     });
 
+    // BARZOLA
+
+    $('#ver-imagenes-barzola').on('click', function () {
+        $('#img-visible-barzola').removeClass('style-img-visible-barzola');
+    });
+
+    $('#cerrar-imagenes-barzola').on('click', function () {
+        $('#img-visible-barzola').addClass('style-img-visible-barzola');
+    });
+
     
 });
 
