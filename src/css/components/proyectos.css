@@ -31,7 +31,9 @@
 .style-img-visible-escuela,
 .style-img-visible-velez,
 .style-img-visible-jockey,
-.style-img-visible-barzola{
+.style-img-visible-barzola,
+.style-img-visible-sarmiento
+{
     display: none;
     margin-top: 50px;
 }

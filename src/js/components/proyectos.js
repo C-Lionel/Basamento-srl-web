@@ -12,7 +12,6 @@ $(document).ready(function () {
         $('#img-visible-tecnoseed').addClass('style-img-visible-tecnoseed');
     });
 
-    
 
     // ORSA
 
@@ -44,9 +43,9 @@ $(document).ready(function () {
         $('#img-visible-ferraris').addClass('style-img-visible-ferraris');
     });
 
-     // GASFE
+    // GASFE
 
-     $('#ver-imagenes-gasfe').on('click', function () {
+    $('#ver-imagenes-gasfe').on('click', function () {
         $('#img-visible-gasfe').removeClass('style-img-visible-gasfe');
     });
 
@@ -104,7 +103,24 @@ $(document).ready(function () {
         $('#img-visible-barzola').addClass('style-img-visible-barzola');
     });
 
+    // SATUS AGER
+
+    $('#ver-imagenes-satus-ager').on('click', function () {
+        alert('holaa')
+    });
     
+
+    // SARMIENTO
+
+    $('#ver-imagenes-sarmiento').on('click', function () {
+        $('#img-visible-sarmiento').removeClass('style-img-visible-sarmiento');
+    });
+
+    $('#cerrar-imagenes-sarmiento').on('click', function () {
+        $('#img-visible-sarmiento').addClass('style-img-visible-sarmiento');
+    });
+
+
 });
 
 

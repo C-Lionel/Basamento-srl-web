@@ -1,3 +1,8 @@
 .nosotros{
     height: 850px;
 }
+
+.carousel-control-prev-styles,
+.carousel-control-next-styles {
+    width: 30%;
+}
